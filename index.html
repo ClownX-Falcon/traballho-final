@@ -1,0 +1,349 @@
+<html>
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,user-scalable=0" />
+
+        <link rel="stylesheet" type="text/css" href="assets/template.css"/>
+
+        <link rel="shortcut icon" href="assets/images" type="image/x-icon">
+
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display =='flex') {
+                        document.querySelector(".menu nav ul").style.display ='none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display ='flex';
+                    }
+                });
+            };
+
+        </script>
+        <title>MediCenter</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="assets/images/logo.png"/></a>
+                </div> 
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="">Home</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Departments</a></li>
+                            <li><a href="">scheduling</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Health and well-being</h1>
+                    <h2>MediCenter is a technology clinic made for you.</h2>
+                </div>
+                <div class="banner_options">
+                    <div class="banner1">
+                            <div class="banner_tittle">Emergency area</div>
+                            <div class="banner_desc">Exclusively for patients in severe cases.</div>
+                            <a href="">Learn More</a>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_tittle">Access to doctors</div>
+                        <div class="banner_desc">Space for those who consulted with a doctor recently and are looking to return.</div>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_tittle">Opening hours</div>
+                            <div class="area-hours">
+                                <div>Monday</div>
+                                <div>8:00-17:00</div>
+                            </div>
+                            <div class="area-hours">
+                                <div>Saturday</div>
+                                <div>9:30-17:30</div>    
+                            </div>
+                            <div class="area-hours">
+                                <div>Sunday</div>
+                                <div>9:30-15:30</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_text">Latest news</div>
+                            <div class="widget_tittle_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">01 OUT 22</div>
+                                        <div class="news_comments">1</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/imagem1.jpg">
+                                    </div>
+                                    <div class="news_title">
+                                        OMS declares Uganda's worst Ebola outbreak in two decades over.
+                                    </div>
+                                    <div class="news_resume">
+                                        With at least 55 deaths, the epidemic was the second with the most deaths in the country's history; health authorities maintain vigilance and neighboring countries remain on alert.
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">10 OUT 22</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/imagem2.jpg">
+                                    </div>
+                                    <div class="news_title">
+                                        OMS sees signs of hope for 2023 with reduced outbreaks and pandemic.
+                                    </div>
+                                    <div class="news_resume">
+                                        Director General of the agency says that although 2022 has been difficult, the news is encouraging, with Covid-19, smallpox M and Ebola in decline; Tedros Ghebreyesus points out that one of the most important lessons from the pandemic is that all countries need to strengthen their public health systems.
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">20 OUT 22</div>
+                                        <div class="news_comments">3</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/imagem3.jpg">
+                                    </div>
+                                    <div class="news_title">
+                                        Cases of infection and deaths from malaria remained stable in 2021.
+                                    </div>
+                                    <div class="news_resume">
+                                        Data from the World Health Organization show that countries with the highest prevalence have managed to avoid setbacks thanks to prevention, testing and treatments despite the Covid-19 pandemic.
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">25 OUT 22</div>
+                                        <div class="news_comments">4</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/imagem4.jpg">
+                                    </div>
+                                    <div class="news_title">
+                                        Tuberculosis deaths increased during the Covid-19 pandemic.
+                                    </div>
+                                    <div class="news_resume">
+                                        OMS released global report; document also brings data on a decline in global spending on essential services; Increases in the number of people falling ill from the infection and drug resistance have been reported for the first time in many years.
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <aside>
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_text">Departments</div>
+                            <div class="widget_tittle_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_body">
+                                <div class="retangulos">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_text">Schedule an appointment</div>
+                            <div class="widget_tittle_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div>
+                            <p>Make your appointment with us through our contacts bellow. On financial issues, we ask you to request an evaluation by e-mail</p>
+                            <hr>
+                        </div>
+                        <div class="contatos">
+                            <div class="telefone">
+                                <div> <img src="assets/images/telefone.png" alt="telefone" class="ico"> My number:
+                                    <strong>1-400-433-4509</strong></div>
+                                <hr>
+                            </div>
+                            <div>
+                                <hr>
+                                <div class="contatos">
+                                    <div class="email">
+                                        <div> <img src="assets/images/email.png" alt="e-mail" class="ico">
+                                          By E-mail:  <a href="mailto:medicentes@gmail.com">medicenter@gmail.com</a></div>
+                                       
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <div class="contatos">
+                                            <div class="">
+                                                <div> <img src="assets/images/forms.png" alt="formulario" class="ico"> Or <a href="#">fill in the form on </a>our contact page.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <a href="">
+                <div class="fm1">
+                    <div class="fm1_tittle">Health Insurance</div>
+                    <div class="fm1_desc">
+                        Here in medicenter we have individual  &rarr;
+                    </div>
+                </a>              
+                </div>
+                <a href="">
+                <div class="fm2">
+                    <div class="fm2_tittle">Medical Records</div>
+                    <div class="fm2_desc">
+                        Here in medicenter we have individual  &rarr;
+                    </div>
+                </a>
+                </div>
+                <a href="">
+                <div class="fm3">
+                    <div class="fm3_tittle">Online Bill Pay</div>
+                    <div class="fm3_desc">
+                        Here in medicenter we have individual  &rarr;
+                    </div>
+                </a>
+                </div>
+               
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_text">Medicenter Clinic</div>
+                            <div class="widget_bar"></div>
+                        </div>
+
+                        <div class="widget_body">
+                            <div class="widget_body_text">
+                             Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+                            </div>
+                        </div>
+                        <div class="widget_adress">
+                            Medicenter Clinic <br>
+                            33 Farlane Street <br>
+                            Keilor East <br>
+                            VIC 3033, Australia <br>
+                        </div>
+                        <div class="widget_contato">
+                            +123 655 655 <br>
+                            +123 755 755 <br>
+                            <strong>medicenter@mail.com</strong>
+                        </div>
+                    </div>
+                   
+                    <br> <div class="redes_sociais">
+                        <a href="">
+                        <img class="icon1" src="/assets/images/facebook.png">
+                        <img class="icon2" src="/assets/images/google.png">
+                        <img class="icon3" src="/assets/images/linkedin.png">
+                        </a>
+                    </div>
+                   
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_text">Laters Posts</div>
+                            <div class="widget_bar"></div>
+                        </div>
+
+                        <div class="widget_body">
+                            <div class="post1">
+                                  &#8594 Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                            </div><span>9 months ago</span><br>
+                            <div class="post1">
+                                <br> &#8594 Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.                        
+                            </div><span>10 months ago</span><br>
+                            <div class="post1">
+                                <br>  &#8594 Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                            </div><span>about a year ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_tittle">
+                            <div class="widget_tittle_text">Laters Tweets</div>
+                            <div class="widget_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="tweet1">
+                                &#8594 @chabodmathieu Ok, good! I'm glad to hear that! <br>
+                                Have a nice day!
+                            </div><span>11 days ago</span>
+                            
+                            <div class="tweet2">
+                              <br>  &#8594 @chabodmathieu Support for all our items is conducted through our Support Forum - http://t.co/1lntxsJ Please use the forum to get help. Thx.
+                            </div><span>11 days ago</span>
+                            
+                            <div class="tweet3">
+                               <br> &#8594 A huge thanks to all who support our wordk and to all of our buyers. Our Gym WordPress Theme - htpp://t.co/szgTwgVU just reached 1000 sales!
+                            </div><span>22 days ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                &#169; Copyright - MediCenter Template by QuanticaLabs
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
