@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCenter</title>
+</head>
+<body>
+    <header>
+        <h1>MediCenter</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/appointments">Agendamentos</a></li>
+                <li><a href="/contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Últimas Notícias</h2>
+    <div>
+        <% posts.forEach(post => { %>
+            <div>
+                <h3><%= post.title %></h3>
+                <p><%= post.content %></p>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html>
